@@ -7,9 +7,15 @@ import 'package:listadetarefas/strings_validacao.dart';
 
 class RegisterTask extends StatelessWidget {
   RegisterTask({super.key});
-
+  final limparLegenda = TextEditingController();
+  final limparDescricao = TextEditingController();
   final _formKey = GlobalKey<FormState>();
   final constroller = GetIt.instance.get<TaskController>();
+
+  void clearText() {
+    limparLegenda.clear();
+    limparDescricao.clear();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -41,6 +47,7 @@ class RegisterTask extends StatelessWidget {
                     onChanged: (value) {
                       constroller.setLegenda(value);
                     },
+                    controller: limparLegenda,
                   ),
                   const SizedBox(
                     height: 40,
@@ -57,6 +64,7 @@ class RegisterTask extends StatelessWidget {
                     onChanged: (value) {
                       constroller.setDescricao(value);
                     },
+                    controller: limparDescricao,
                   ),
                   const SizedBox(
                     height: 20,
@@ -82,6 +90,7 @@ class RegisterTask extends StatelessWidget {
                         );
                         constroller.addList(task);
                       }
+                      clearText();
                     },
                     child: const Text("Adicionar"),
                   ),
