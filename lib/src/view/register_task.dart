@@ -77,7 +77,7 @@ class RegisterTask extends StatelessWidget {
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(
                             duration: Duration(seconds: 2),
-                            backgroundColor: Color.fromRGBO(253, 253, 253, 0),
+                            backgroundColor: Color.fromARGB(0, 0, 0, 0),
                             content: Text(
                               "Tarefa adicionada!",
                               textAlign: TextAlign.center,
@@ -89,6 +89,8 @@ class RegisterTask extends StatelessWidget {
                           descricao: constroller.descricao,
                         );
                         constroller.addList(task);
+                      } else {
+                        return;
                       }
                       clearText();
                     },
