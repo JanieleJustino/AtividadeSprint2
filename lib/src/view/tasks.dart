@@ -17,6 +17,7 @@ class _TasksState extends State<Tasks> {
       title: Text(widget.dados.legenda),
       subtitle: Text(widget.dados.descricao),
       leading: Checkbox(
+        activeColor: Colors.green,
         value: widget.dados.statusTask,
         onChanged: (value) {
           setState(() {
