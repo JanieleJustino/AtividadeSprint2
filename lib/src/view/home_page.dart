@@ -63,8 +63,15 @@ class _HomePageState extends State<HomePage> {
                                       background: Padding(
                                         padding: const EdgeInsets.only(top: 4),
                                         child: Container(
+                                          alignment: Alignment.center,
                                           color: const Color.fromARGB(
                                               162, 244, 67, 54),
+                                          child: const Text(
+                                            "Remover",
+                                            style:
+                                                TextStyle(color: Colors.white),
+                                            textAlign: TextAlign.left,
+                                          ),
                                         ),
                                       ),
                                       onDismissed: (direction) {
