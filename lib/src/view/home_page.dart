@@ -70,7 +70,6 @@ class _HomePageState extends State<HomePage> {
                                             "Remover",
                                             style:
                                                 TextStyle(color: Colors.white),
-                                            textAlign: TextAlign.left,
                                           ),
                                         ),
                                       ),

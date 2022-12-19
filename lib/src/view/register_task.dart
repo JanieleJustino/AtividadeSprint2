@@ -3,7 +3,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:get_it/get_it.dart';
 import 'package:listadetarefas/src/controller/task_controller.dart';
 import 'package:listadetarefas/src/model/task_data.dart';
-import 'package:listadetarefas/strings_validacao.dart';
+import 'package:listadetarefas/src/util/strings_validacao.dart';
 
 class RegisterTask extends StatelessWidget {
   RegisterTask({super.key});
