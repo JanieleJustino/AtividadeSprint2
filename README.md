@@ -1,16 +1,9 @@
-# listadetarefas
+App: Lista de tarefas
+Aplicativo para lista de tarefas, usando MobX para gerência de estados e GetIt para injeção de dependências.
 
-A new Flutter project.
+App simples para avaliação de domínio do conhecimento do curso Desenvolvimento mobile com flutter da Proz Educação.
+SPRINT II
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Professor: Deyvid Jaguaribe
+Turor: Rafael Ebrahim
+T003 - Presencial 2022.
