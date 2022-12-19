@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.justino.listadetarefas">
+    package="com.example.listadetarefas">
    <application
         android:label="listadetarefas"
         android:name="${applicationName}"
